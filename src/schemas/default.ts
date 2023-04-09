@@ -1,6 +1,6 @@
 import make from "rfdc";
 import { $array } from "./array";
-import { ParseResult, Schema } from "./schema";
+import { Schema, type ParseResult } from "./schema";
 
 const clone = make();
 

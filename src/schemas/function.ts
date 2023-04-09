@@ -1,7 +1,7 @@
 import { TError } from "../error";
 import { isNumber } from "../utils";
 import { $base } from "./base";
-import { ParseResult } from "./schema";
+import { type ParseResult } from "./schema";
 
 export type FunctionConfig = {
   length?: number;

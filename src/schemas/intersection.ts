@@ -1,5 +1,5 @@
 import { TError } from "../error";
-import type { Dic, Prettier } from "../types";
+import { type Dic, type Prettier } from "../types";
 import { $base } from "./base";
 import { $object } from "./object";
 import { Schema, type ParseResult } from "./schema";
@@ -7,7 +7,7 @@ import { $union } from "./union";
 
 type Intersection<S extends unknown[], U = unknown> = S extends [
   s: $union<infer T>,
-  ...rest: infer R
+  ...rest: infer R,
 ]
   ? Intersection<R, T & U>
   : S extends [s: $object<infer T>, ...rest: infer R]

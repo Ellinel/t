@@ -1,4 +1,4 @@
-import { TError } from "../error";
+import { type TError } from "../error";
 
 export type Infer<S> = S extends Schema<infer T> ? T : never;
 

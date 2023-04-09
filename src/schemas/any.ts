@@ -1,6 +1,5 @@
 import { $base } from "./base";
-import { ParseResult } from "./schema";
-
+import { type ParseResult } from "./schema";
 
 // rome-ignore lint/suspicious/noExplicitAny: <explanation>
 export class $any extends $base<any> {

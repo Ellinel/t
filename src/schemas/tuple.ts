@@ -1,7 +1,6 @@
 import { TError } from "../error";
 import { $base } from "./base";
-import { ParseResult, Schema, type Infer } from "./schema";
-
+import { type Schema, type Infer, type ParseResult } from "./schema";
 
 export class $tuple<T extends unknown[]> extends $base<T> {
   static create<T extends Schema[]>(...schemas: T) {
@@ -22,7 +21,6 @@ export class $tuple<T extends unknown[]> extends $base<T> {
       };
     }
 
-    
     if (!Array.isArray(x)) {
       return {
         success: false,

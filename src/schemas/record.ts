@@ -2,7 +2,7 @@ import { TError } from "../error";
 import type { Dic } from "../types";
 import { isNumber, isObject, keys } from "../utils";
 import { $base } from "./base";
-import { Schema, type ParseResult } from "./schema";
+import { type ParseResult, type Schema } from "./schema";
 
 export type RecordConfig = {
   size?: number;

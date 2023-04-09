@@ -3,7 +3,6 @@ import { isNumber } from "../utils";
 import { $base } from "./base";
 import { type ParseResult } from "./schema";
 
-
 type NumberConfig = {
   max?: number;
   min?: number;

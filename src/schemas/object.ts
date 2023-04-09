@@ -1,5 +1,5 @@
 import { TError } from "../error";
-import type { Dic } from "../types";
+import { type Dic } from "../types";
 import { isObject, keys } from "../utils";
 import { Schema, type ParseResult, type Infer } from "./schema";
 import { $base } from "./base";

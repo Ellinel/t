@@ -1,5 +1,5 @@
 import { TError } from "../error";
-import { Class } from "../types";
+import { type Class } from "../types";
 import { $base } from "./base";
 import { type ParseResult } from "./schema";
 

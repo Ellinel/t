@@ -1,4 +1,4 @@
-import { Key } from "./types";
+import { type Key } from "./types";
 
 export type Issue = { code: string; path: Key[] };
 

@@ -1,4 +1,4 @@
-import { Dic } from "./types";
+import { type Dic } from "./types";
 
 export function isObject(x: unknown): x is Dic {
   return x != null && typeof x === "object";

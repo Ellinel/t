@@ -1,5 +1,5 @@
 import { $array } from "./array";
-import { ParseResult, Schema } from "./schema";
+import { Schema, type ParseResult } from "./schema";
 
 export class $nullable<T> extends Schema<T | null> {
   static create<T>(schema: Schema<T>) {

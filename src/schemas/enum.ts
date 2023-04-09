@@ -2,7 +2,7 @@ import { TError } from "../error";
 import type { Key } from "../types";
 import { includes, isObject } from "../utils";
 import { $base } from "./base";
-import type { ParseResult } from "./schema";
+import { type ParseResult } from "./schema";
 
 export class $enum<T> extends $base<T> {
   static create<T extends Key>(first: T, ...items: T[]): $enum<T>;

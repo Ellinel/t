@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ESNext",
     "lib": ["ES2020"],
     "downlevelIteration": true,
-    "module": "CommonJS",
+    "module": "ESNext",
     "declaration": true,
     "declarationDir": "types",
     "strict": true,
     "esModuleInterop": true,
     "noUncheckedIndexedAccess": true,
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
     "rootDir": "src",
     "outDir": "lib",

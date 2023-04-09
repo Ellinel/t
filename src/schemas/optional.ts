@@ -1,5 +1,5 @@
 import { $array } from "./array";
-import { Schema, ParseResult } from "./schema";
+import { Schema, type ParseResult } from "./schema";
 
 export class $optional<T> extends Schema<T | undefined> {
   static create<T>(schema: Schema<T>) {

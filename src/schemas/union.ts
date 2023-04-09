@@ -1,6 +1,6 @@
 import { TError } from "../error";
 import { $base } from "./base";
-import { Schema, type ParseResult } from "./schema";
+import { type Schema, type ParseResult } from "./schema";
 
 
 export class $union<T> extends $base<T> {
